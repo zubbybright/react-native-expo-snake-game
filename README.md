@@ -1,5 +1,5 @@
 # react-native-expo-snake-game
-  Built with react native and TypeScript
+  Built with react native, expo and TypeScript
 
 # How to Setup
 Clone the repo
