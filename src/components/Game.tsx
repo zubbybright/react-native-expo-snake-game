@@ -90,7 +90,7 @@ export default function Game(): JSX.Element {
 
     if (checkEatsFood(newHead, food, 2)) {
       setEatCount(eatCount + 1);
-      if ((eatCount % 5) === 0) {
+      if ((eatCount % 2) === 0) {
         console.log(eatCount);
         if (moveInterval > 100) {
           setMoveInterval(moveInterval - 100);
