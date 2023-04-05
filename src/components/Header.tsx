@@ -14,7 +14,7 @@ export default function Header({
   children,
   reloadGame,
   pauseGame,
-  isPaused,
+  isPaused
 }: HeaderProps): JSX.Element {
   return (
     <View style={styles.container}>
